@@ -1,0 +1,1344 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.8.4",
+  "deps": {
+    "@nestjs/common": "^11.1.1",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.1",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/platform-express": "^11.1.1",
+    "@nestjs/typeorm": "^11.0.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.9.0",
+    "bcrypt": "^6.0.0",
+    "next": "^15.3.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.16.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "typeorm": "^0.3.24",
+    "@nestjs/cli": "^11.0.7",
+    "@nestjs/testing": "^11.1.1",
+    "@nrwl/next": "^19.8.4",
+    "@nrwl/nx-cloud": "^19.1.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^29.5.14",
+    "@types/react": "19.1.4",
+    "eslint": "^9.26.0",
+    "jest": "^29.7.0",
+    "jsdom": "^26.1.0",
+    "nx": "^19.8.4",
+    "prettier": "^3.5.3",
+    "supertest": "^7.1.1",
+    "ts-jest": "^29.3.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  },
+  "pathMappings": {
+    "@components/*": [
+      "apps/frontend/components/*"
+    ],
+    "@/*": [
+      "apps/frontend/*"
+    ],
+    "@/components/*": [
+      "apps/frontend/components/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "apps/backend/src/auth/auth.service.ts",
+        "hash": "12722069950361944627"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/commands/create-post.handler.ts",
+        "hash": "11124350328476952288"
+      },
+      {
+        "file": "my-nest-app/src/database/migrations/1622299665807-create-users-table.ts",
+        "hash": "5656533458136553420"
+      },
+      {
+        "file": "my-nest-app/src/filters/constraint-errors.ts",
+        "hash": "5690274402119140664"
+      },
+      {
+        "file": "my-nest-app/docs/naming-cheatsheet.md",
+        "hash": "5080372236152075194"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/user.module.ts",
+        "hash": "16943499642612689088"
+      },
+      {
+        "file": "my-nest-app/src/interfaces/IFile.ts",
+        "hash": "12064360805560536880"
+      },
+      {
+        "file": "my-nest-app/src/guards/roles.guard.ts",
+        "hash": "8978339182098863436"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/dtos/users-page-options.dto.ts",
+        "hash": "9097494267667760184"
+      },
+      {
+        "file": "my-nest-app/.release-it.json",
+        "hash": "8755033373709355541"
+      },
+      {
+        "file": "apps/backend/src/main.ts",
+        "hash": "4358089491257322432"
+      },
+      {
+        "file": "apps/backend/.next/trace",
+        "hash": "5442828890782203539"
+      },
+      {
+        "file": "my-nest-app/vite.config.mts",
+        "hash": "3577296693083600608"
+      },
+      {
+        "file": "my-nest-app/src/decorators/use-dto.decorator.ts",
+        "hash": "2588406873885923516"
+      },
+      {
+        "file": "my-nest-app/src/modules/doctors/doctors.module.ts",
+        "hash": "10330167869817478149"
+      },
+      {
+        "file": "apps/backend/src/doctors/doctors.service.ts",
+        "hash": "1924104867063717405"
+      },
+      {
+        "file": "my-nest-app/src/modules/health-checker/health-checker.controller.ts",
+        "hash": "13125020811867397251"
+      },
+      {
+        "file": "my-nest-app/tsconfig.build.json",
+        "hash": "4546757474776297327"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/user.service.ts",
+        "hash": "2659079978842709420"
+      },
+      {
+        "file": "my-nest-app/src/app.module.ts",
+        "hash": "4266985584283188557"
+      },
+      {
+        "file": "apps/backend/src/doctors/doctors.controller.ts",
+        "hash": "6726774559489628521"
+      },
+      {
+        "file": "my-nest-app/ormconfig.ts",
+        "hash": "7813598115271413063"
+      },
+      {
+        "file": "apps/backend/src/entities/doctor-profile.entity.ts",
+        "hash": "1521585709078801871"
+      },
+      {
+        "file": "my-nest-app/src/interceptors/auth-user-interceptor.service.ts",
+        "hash": "8626431441211975062"
+      },
+      {
+        "file": "apps/backend/src/users/users.service.ts",
+        "hash": "5027312531187906244"
+      },
+      {
+        "file": "apps/backend/src/availability/availability.module.ts",
+        "hash": "3054351463877795602"
+      },
+      {
+        "file": "my-nest-app/src/i18n/ru_RU/admin.json",
+        "hash": "9073099073556506837"
+      },
+      {
+        "file": "apps/backend/src/users/users.controller.ts",
+        "hash": "10099916464310326528"
+      },
+      {
+        "file": "my-nest-app/.vuepress/config.ts",
+        "hash": "9536891045978718854"
+      },
+      {
+        "file": "my-nest-app/src/shared/services/validator.service.ts",
+        "hash": "437052006590773552"
+      },
+      {
+        "file": "my-nest-app/.prettierrc",
+        "hash": "17567823440625355842"
+      },
+      {
+        "file": "my-nest-app/docs/architecture.md",
+        "hash": "2498809665862364443"
+      },
+      {
+        "file": "my-nest-app/src/filters/bad-request.filter.ts",
+        "hash": "18249848087049145075"
+      },
+      {
+        "file": "my-nest-app/src/snake-naming.strategy.ts",
+        "hash": "2556513045214994283"
+      },
+      {
+        "file": "my-nest-app/src/constants/role-type.ts",
+        "hash": "14199253439912942490"
+      },
+      {
+        "file": "my-nest-app/src/guards/auth.guard.ts",
+        "hash": "713183766657670922"
+      },
+      {
+        "file": "my-nest-app/src/exceptions/page-type.exception.ts",
+        "hash": "3483682192976300942"
+      },
+      {
+        "file": "my-nest-app/eslint.config.mjs",
+        "hash": "14979184378441034744"
+      },
+      {
+        "file": "my-nest-app/Dockerfile",
+        "hash": "11435777172667245020"
+      },
+      {
+        "file": "my-nest-app/src/common/dto/create-translation.dto.ts",
+        "hash": "10407398274653589115"
+      },
+      {
+        "file": "my-nest-app/src/constants/language-code.ts",
+        "hash": "4960723072715502244"
+      },
+      {
+        "file": "my-nest-app/src/exceptions/file-not-image.exception.ts",
+        "hash": "15633155030965751813"
+      },
+      {
+        "file": "my-nest-app/.vscode/copilot-instructions.md",
+        "hash": "540976437980186728"
+      },
+      {
+        "file": "my-nest-app/src/decorators/roles.decorator.ts",
+        "hash": "153668882981750150"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/dtos/create-settings.dto.ts",
+        "hash": "3119971804706140265"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/post.service.ts",
+        "hash": "18303636253560439118"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/post.module.ts",
+        "hash": "9180253872555336386"
+      },
+      {
+        "file": "apps/backend/src/entities/availability-slot.entity.ts",
+        "hash": "1575284588465986082"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/jwt.strategy.ts",
+        "hash": "9010199143235744536"
+      },
+      {
+        "file": "my-nest-app/src/entity-subscribers/user-subscriber.ts",
+        "hash": "1136937718284907450"
+      },
+      {
+        "file": "my-nest-app/src/filters/query-failed.filter.ts",
+        "hash": "13930379974254154197"
+      },
+      {
+        "file": "apps/backend/src/availability/availability.controller.ts",
+        "hash": "10165352753081286099"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/exceptions/post-not-found.exception.ts",
+        "hash": "11098609736356258286"
+      },
+      {
+        "file": "my-nest-app/src/decorators/auth-user.decorator.ts",
+        "hash": "4234024941958626719"
+      },
+      {
+        "file": "my-nest-app/src/metadata.ts",
+        "hash": "8253997209141886839"
+      },
+      {
+        "file": "my-nest-app/src/modules/doctors/doctors.controller.ts",
+        "hash": "4569644930077687882"
+      },
+      {
+        "file": "my-nest-app/src/boilerplate.polyfill.ts",
+        "hash": "10497191110641776536"
+      },
+      {
+        "file": "my-nest-app/test/jest-e2e.json",
+        "hash": "10645908491471703423"
+      },
+      {
+        "file": ".github/workflows/ci-cd-workflow.yml",
+        "hash": "16396332830788835260"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/post.controller.ts",
+        "hash": "13973477351362668509"
+      },
+      {
+        "file": "my-nest-app/docker-compose.yml",
+        "hash": "16428784667429032792"
+      },
+      {
+        "file": "my-nest-app/src/decorators/public-route.decorator.ts",
+        "hash": "6873937956186530171"
+      },
+      {
+        "file": "my-nest-app/src/decorators/translate.decorator.ts",
+        "hash": "10737432171380942851"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/public.strategy.ts",
+        "hash": "13983668480175014643"
+      },
+      {
+        "file": "dist/apps/frontend/.nx-helpers/with-nx.js",
+        "hash": "7268502293359825523"
+      },
+      {
+        "file": "my-nest-app/.gitignore",
+        "hash": "6231557327229715957"
+      },
+      {
+        "file": "apps/backend/test/users.e2e-spec.ts",
+        "hash": "3315351062215348391"
+      },
+      {
+        "file": "my-nest-app/src/decorators/validator.decorators.ts",
+        "hash": "3641946149941280148"
+      },
+      {
+        "file": "apps/backend/src/users/users.entity.ts",
+        "hash": "14165542257341536539"
+      },
+      {
+        "file": "my-nest-app/src/providers/generator.provider.ts",
+        "hash": "11416263851152840974"
+      },
+      {
+        "file": "my-nest-app/package.json",
+        "hash": "4165246986257596580"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/user.controller.ts",
+        "hash": "12280869724407251653"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/commands/create-settings.command.ts",
+        "hash": "14203856437410478097"
+      },
+      {
+        "file": "apps/backend/src/app.module.ts",
+        "hash": "5136859665336906073"
+      },
+      {
+        "file": "my-nest-app/src/decorators/field.decorators.ts",
+        "hash": "10160450956223199092"
+      },
+      {
+        "file": "my-nest-app/src/common/utils.ts",
+        "hash": "15252281631344547774"
+      },
+      {
+        "file": "my-nest-app/src/interceptors/translation-interceptor.service.ts",
+        "hash": "5055121647532719397"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/auth.module.ts",
+        "hash": "12159124492005245725"
+      },
+      {
+        "file": "dist/apps/frontend/next.config.js",
+        "hash": "6665160501143952953"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/auth.controller.spec.ts",
+        "hash": "16573498766257292018"
+      },
+      {
+        "file": "my-nest-app/nest-cli.json",
+        "hash": "8323697623490693145"
+      },
+      {
+        "file": "my-nest-app/src/common/dto/page.dto.ts",
+        "hash": "297533369980844395"
+      },
+      {
+        "file": "my-nest-app/src/providers/context.provider.ts",
+        "hash": "6356053319240689578"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/commands/create-post.command.ts",
+        "hash": "8536717795122579420"
+      },
+      {
+        "file": "my-nest-app/test/app.e2e-spec.ts",
+        "hash": "9433177575913300551"
+      },
+      {
+        "file": "my-nest-app/docs/code-generation.md",
+        "hash": "3607975061953521897"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/auth.controller.ts",
+        "hash": "5864494096849808954"
+      },
+      {
+        "file": "my-nest-app/src/shared/services/aws-s3.service.ts",
+        "hash": "3675858398223845292"
+      },
+      {
+        "file": "apps/backend/test/auth.e2e-spec.ts",
+        "hash": "14935948210345755313"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/post.entity.ts",
+        "hash": "2339036898537954278"
+      },
+      {
+        "file": "nx.json",
+        "hash": "15565096348140848783"
+      },
+      {
+        "file": "my-nest-app/src/shared/services/api-config.service.ts",
+        "hash": "4687315237210555798"
+      },
+      {
+        "file": "my-nest-app/src/common/dto/page-options.dto.ts",
+        "hash": "7839529172218016242"
+      },
+      {
+        "file": "my-nest-app/.swcrc",
+        "hash": "11174758253739844165"
+      },
+      {
+        "file": "dist/apps/frontend/package.json",
+        "hash": "12902280108994485743"
+      },
+      {
+        "file": "my-nest-app/src/database/migrations/1641994291086-add-posts-table.ts",
+        "hash": "2681763379291342888"
+      },
+      {
+        "file": "my-nest-app/src/decorators/transform.decorators.ts",
+        "hash": "8922837277125806898"
+      },
+      {
+        "file": "my-nest-app/src/exceptions/user-not-found.exception.ts",
+        "hash": "9507916380558312111"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/dtos/post.dto.ts",
+        "hash": "13431258568927531509"
+      },
+      {
+        "file": "apps/backend/src/auth/auth.controller.ts",
+        "hash": "15706686812688894920"
+      },
+      {
+        "file": "my-nest-app/src/common/abstract-client.service.ts",
+        "hash": "1316052570660526321"
+      },
+      {
+        "file": "apps/backend/src/entities/user.entity.ts",
+        "hash": "1982931548788377592"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/dtos/user.dto.ts",
+        "hash": "6950749289938780229"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/dtos/create-post.dto.ts",
+        "hash": "9565718530262415908"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/dto/token-payload.dto.ts",
+        "hash": "10518676605981627780"
+      },
+      {
+        "file": "my-nest-app/README.md",
+        "hash": "6419424240656841522"
+      },
+      {
+        "file": "dist/apps/frontend/.nx-helpers/compose-plugins.js",
+        "hash": "530203344399478070"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/dto/user-login.dto.ts",
+        "hash": "7278347952277418678"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/queries/get-post.handler.ts",
+        "hash": "11983000232893023531"
+      },
+      {
+        "file": "my-nest-app/.editorconfig",
+        "hash": "8624325672896566142"
+      },
+      {
+        "file": "my-nest-app/.env.example",
+        "hash": "12240860869421019796"
+      },
+      {
+        "file": "my-nest-app/src/decorators/http.decorators.ts",
+        "hash": "14770519171498761408"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/auth.service.ts",
+        "hash": "8171216102274228369"
+      },
+      {
+        "file": "my-nest-app/init-data.sh",
+        "hash": "4961633079995597873"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/post-translation.entity.ts",
+        "hash": "13792733532799767948"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/dtos/post-translation.dto.ts",
+        "hash": "9590275888567188279"
+      },
+      {
+        "file": "my-nest-app/LICENSE",
+        "hash": "8617732316203989385"
+      },
+      {
+        "file": "apps/backend/test/availability.e2e-spec.ts",
+        "hash": "5802776723910322292"
+      },
+      {
+        "file": "my-nest-app/src/i18n/en_US/admin.json",
+        "hash": "8013541843673277643"
+      },
+      {
+        "file": "prisma/schema.prisma",
+        "hash": "15660015513217580721"
+      },
+      {
+        "file": ".env",
+        "hash": "806861756126263115"
+      },
+      {
+        "file": "my-nest-app/src/interfaces/IApiFile.ts",
+        "hash": "15695609985702030765"
+      },
+      {
+        "file": "apps/backend/src/availability/availability-slot.entity.ts",
+        "hash": "2291370311237488819"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1903586889961574885"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/dto/login-payload.dto.ts",
+        "hash": "4914530778108577920"
+      },
+      {
+        "file": "my-nest-app/src/shared/services/generator.service.ts",
+        "hash": "11246985410940883980"
+      },
+      {
+        "file": "my-nest-app/src/validators/exists.validator.ts",
+        "hash": "3853575461135743578"
+      },
+      {
+        "file": "my-nest-app/tsconfig.eslint.json",
+        "hash": "8701709668045790493"
+      },
+      {
+        "file": "my-nest-app/docs/development.md",
+        "hash": "7414357354434122912"
+      },
+      {
+        "file": "apps/backend/src/users/users.module.ts",
+        "hash": "7886986042608599402"
+      },
+      {
+        "file": "my-nest-app/src/validators/unique.validator.ts",
+        "hash": "1820846969081690921"
+      },
+      {
+        "file": "my-nest-app/src/common/dto/abstract.dto.ts",
+        "hash": "9350293462582608503"
+      },
+      {
+        "file": "my-nest-app/src/validators/same-as.validator.ts",
+        "hash": "8657745441886492588"
+      },
+      {
+        "file": "package.json",
+        "hash": "3092780880316383627"
+      },
+      {
+        "file": "my-nest-app/yarn.lock",
+        "hash": "3178099916825298230"
+      },
+      {
+        "file": "my-nest-app/src/setup-swagger.ts",
+        "hash": "4563359654287369962"
+      },
+      {
+        "file": "my-nest-app/docker-compose_mysql.yml",
+        "hash": "16404125056506478731"
+      },
+      {
+        "file": "apps/backend/src/auth/auth.module.ts",
+        "hash": "722014342827375441"
+      },
+      {
+        "file": "my-nest-app/src/shared/services/translation.service.ts",
+        "hash": "17755802815345496912"
+      },
+      {
+        "file": "my-nest-app/.husky/commit-msg",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "my-nest-app/src/database/migrations/1639940635548-add-user-settings.ts",
+        "hash": "17955777918325004217"
+      },
+      {
+        "file": "README.md",
+        "hash": "7969495009812231400"
+      },
+      {
+        "file": "my-nest-app/tsconfig.json",
+        "hash": "14111742196880018821"
+      },
+      {
+        "file": "my-nest-app/src/constants/token-type.ts",
+        "hash": "2862365099488726645"
+      },
+      {
+        "file": "my-nest-app/src/constants/order.ts",
+        "hash": "15635288590238926553"
+      },
+      {
+        "file": "my-nest-app/.husky/pre-commit",
+        "hash": "9794621448000971530"
+      },
+      {
+        "file": "my-nest-app/src/decorators/property.decorators.ts",
+        "hash": "18166334154064480922"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3207970220379189267"
+      },
+      {
+        "file": "my-nest-app/src/modules/health-checker/health-indicators/service.indicator.ts",
+        "hash": "16424252333924221778"
+      },
+      {
+        "file": "my-nest-app/docs/linting.md",
+        "hash": "1022854113832407052"
+      },
+      {
+        "file": "my-nest-app/src/shared/shared.module.ts",
+        "hash": "1512818696156129355"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/user.entity.ts",
+        "hash": "6982311053423011745"
+      },
+      {
+        "file": "my-nest-app/src/decorators/swagger.schema.ts",
+        "hash": "9158573094583037176"
+      },
+      {
+        "file": "my-nest-app/src/interfaces/ITranslationDecoratorInterface.ts",
+        "hash": "17489515265700687960"
+      },
+      {
+        "file": "my-nest-app/src/common/dto/page-meta.dto.ts",
+        "hash": "12394753483834914250"
+      },
+      {
+        "file": "my-nest-app/src/main.ts",
+        "hash": "2214932686287335136"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/queries/get-post.query.ts",
+        "hash": "12813960643143325467"
+      },
+      {
+        "file": "apps/backend/src/availability/availability.service.ts",
+        "hash": "4865679825773005499"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/dtos/update-post.dto.ts",
+        "hash": "14576963750530933608"
+      },
+      {
+        "file": "my-nest-app/src/modules/post/dtos/post-page-options.dto.ts",
+        "hash": "18141130577978885383"
+      },
+      {
+        "file": "libs/types/index.ts",
+        "hash": "1147474756645611314"
+      },
+      {
+        "file": "my-nest-app/src/decorators/api-page-response.decorator.ts",
+        "hash": "17559845744311267010"
+      },
+      {
+        "file": "apps/backend/src/doctors/doctor-profile.entity.ts",
+        "hash": "12612385689650074884"
+      },
+      {
+        "file": "dist/apps/frontend/.nx-helpers/compiled.js",
+        "hash": "10475717735555826831"
+      },
+      {
+        "file": ".next/trace",
+        "hash": "13239800913642363326"
+      },
+      {
+        "file": "my-nest-app/src/test.ts",
+        "hash": "16771918505376015673"
+      },
+      {
+        "file": "my-nest-app/src/modules/user/user-settings.entity.ts",
+        "hash": "3403590034669303501"
+      },
+      {
+        "file": "my-nest-app/.commitlintrc.json",
+        "hash": "2305474376647547107"
+      },
+      {
+        "file": "my-nest-app/src/modules/auth/dto/user-register.dto.ts",
+        "hash": "11342061196909427244"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13400283766656980643"
+      },
+      {
+        "file": "my-nest-app/.vscode/settings.json",
+        "hash": "2310846841981377860"
+      },
+      {
+        "file": "my-nest-app/src/common/abstract.entity.ts",
+        "hash": "17246477410977001685"
+      },
+      {
+        "file": "my-nest-app/src/modules/health-checker/health-checker.module.ts",
+        "hash": "5990011175264800253"
+      },
+      {
+        "file": "apps/backend/test/doctors.e2e-spec.ts",
+        "hash": "1123625086697841290"
+      },
+      {
+        "file": "my-nest-app/deno.json",
+        "hash": "2908327343121427647"
+      },
+      {
+        "file": "my-nest-app/src/types.ts",
+        "hash": "15893067601716202383"
+      },
+      {
+        "file": "apps/backend/src/doctors/doctors.module.ts",
+        "hash": "16699744322812190369"
+      },
+      {
+        "file": "my-nest-app/src/interceptors/language-interceptor.service.ts",
+        "hash": "4545414974851652941"
+      },
+      {
+        "file": "my-nest-app/.dockerignore",
+        "hash": "12293879492201509173"
+      }
+    ],
+    "projectFileMap": {
+      "frontend": [
+        {
+          "file": "apps/frontend/.next/app-build-manifest.json",
+          "hash": "17876077232600758073"
+        },
+        {
+          "file": "apps/frontend/.next/build-manifest.json",
+          "hash": "5125768831124365349"
+        },
+        {
+          "file": "apps/frontend/.next/cache/.rscinfo",
+          "hash": "5012221581561631087"
+        },
+        {
+          "file": "apps/frontend/.next/cache/.tsbuildinfo",
+          "hash": "7232054934923701770"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/0.pack.gz",
+          "hash": "1486318770758490816"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/1.pack.gz",
+          "hash": "4227928863107667595"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/2.pack.gz",
+          "hash": "14817645880424949482"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/3.pack.gz",
+          "hash": "2659423841776705040"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/4.pack.gz",
+          "hash": "9916441140788489040"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/5.pack.gz",
+          "hash": "18271139721192275094"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/6.pack.gz",
+          "hash": "5462546374204600062"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/7.pack.gz",
+          "hash": "3919152708013790718"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-development/index.pack.gz.old",
+          "hash": "13889194039303361137"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/0.pack",
+          "hash": "1749910982596271136"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/1.pack",
+          "hash": "11769428122497913512"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/10.pack",
+          "hash": "1073070940995466361"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/11.pack",
+          "hash": "8517764022026950963"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/12.pack",
+          "hash": "8450594022912834169"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/13.pack",
+          "hash": "6841660022631308992"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/2.pack",
+          "hash": "18387427320377162605"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/3.pack",
+          "hash": "2971082797539413964"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/4.pack",
+          "hash": "7113959013253502423"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/5.pack",
+          "hash": "17704603341531177618"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/6.pack",
+          "hash": "12631755490063093003"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/7.pack",
+          "hash": "7317067488596993923"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/8.pack",
+          "hash": "15190857192432557532"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/9.pack",
+          "hash": "473417415511568788"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/client-production/index.pack.old",
+          "hash": "12006661377037473389"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/edge-server-production/0.pack",
+          "hash": "471599872138982288"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/edge-server-production/index.pack",
+          "hash": "7620546485784272206"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/0.pack.gz",
+          "hash": "14452448064144795180"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/1.pack.gz",
+          "hash": "11470673402275502184"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/10.pack.gz",
+          "hash": "10227460499253557762"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/2.pack.gz",
+          "hash": "2355426836199073006"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/3.pack.gz",
+          "hash": "13766610156170991059"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/4.pack.gz",
+          "hash": "17911286247953670661"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/5.pack.gz",
+          "hash": "4360849696218258942"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/6.pack.gz",
+          "hash": "15260935898298808902"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/7.pack.gz",
+          "hash": "14174962224182679827"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/8.pack.gz",
+          "hash": "1841539109429082852"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/9.pack.gz",
+          "hash": "11119401369702203795"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-development/index.pack.gz.old",
+          "hash": "11290302645071877905"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/0.pack",
+          "hash": "1825400857163542754"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/1.pack",
+          "hash": "12373882434782537519"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/10.pack",
+          "hash": "10868878356501554877"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/11.pack",
+          "hash": "13180125226662991624"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/2.pack",
+          "hash": "7909775927665661638"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/3.pack",
+          "hash": "5657690701229443926"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/4.pack",
+          "hash": "15116477891289315767"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/5.pack",
+          "hash": "12939993386569883231"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/6.pack",
+          "hash": "14357406750055741348"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/7.pack",
+          "hash": "3893604012467433118"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/8.pack",
+          "hash": "6621509200139123681"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/9.pack",
+          "hash": "7803087770839037726"
+        },
+        {
+          "file": "apps/frontend/.next/cache/webpack/server-production/index.pack.old",
+          "hash": "14361327377977162106"
+        },
+        {
+          "file": "apps/frontend/.next/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/frontend/.next/react-loadable-manifest.json",
+          "hash": "2208755607566866086"
+        },
+        {
+          "file": "apps/frontend/.next/server/app-paths-manifest.json",
+          "hash": "16220375078188011968"
+        },
+        {
+          "file": "apps/frontend/.next/server/app/login/page.js",
+          "hash": "8969981087130892101",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/frontend/.next/server/app/login/page_client-reference-manifest.js",
+          "hash": "22562443396163401"
+        },
+        {
+          "file": "apps/frontend/.next/server/app/page.js",
+          "hash": "17504322546372459136",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/frontend/.next/server/app/page_client-reference-manifest.js",
+          "hash": "16221683952478104403"
+        },
+        {
+          "file": "apps/frontend/.next/server/interception-route-rewrite-manifest.js",
+          "hash": "10484309360224763022"
+        },
+        {
+          "file": "apps/frontend/.next/server/middleware-build-manifest.js",
+          "hash": "10146558356613894909"
+        },
+        {
+          "file": "apps/frontend/.next/server/middleware-manifest.json",
+          "hash": "9889576824779923310"
+        },
+        {
+          "file": "apps/frontend/.next/server/middleware-react-loadable-manifest.js",
+          "hash": "16728477313751342617"
+        },
+        {
+          "file": "apps/frontend/.next/server/next-font-manifest.js",
+          "hash": "16541577805185552134"
+        },
+        {
+          "file": "apps/frontend/.next/server/next-font-manifest.json",
+          "hash": "11891788324563068681"
+        },
+        {
+          "file": "apps/frontend/.next/server/pages-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/frontend/.next/server/server-reference-manifest.js",
+          "hash": "13062913855343812063"
+        },
+        {
+          "file": "apps/frontend/.next/server/server-reference-manifest.json",
+          "hash": "6451215266646912265"
+        },
+        {
+          "file": "apps/frontend/.next/server/vendor-chunks/@swc.js",
+          "hash": "1760899116469575209"
+        },
+        {
+          "file": "apps/frontend/.next/server/vendor-chunks/next.js",
+          "hash": "9407184309830575784"
+        },
+        {
+          "file": "apps/frontend/.next/server/webpack-runtime.js",
+          "hash": "16877644567627087905"
+        },
+        {
+          "file": "apps/frontend/.next/static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js",
+          "hash": "984391836274698548"
+        },
+        {
+          "file": "apps/frontend/.next/static/chunks/app-pages-internals.js",
+          "hash": "5989626052086351450"
+        },
+        {
+          "file": "apps/frontend/.next/static/chunks/app/layout.js",
+          "hash": "12959470312003673592"
+        },
+        {
+          "file": "apps/frontend/.next/static/chunks/app/login/page.js",
+          "hash": "13891786849295406902"
+        },
+        {
+          "file": "apps/frontend/.next/static/chunks/app/page.js",
+          "hash": "14748787885475364451"
+        },
+        {
+          "file": "apps/frontend/.next/static/chunks/main-app.js",
+          "hash": "17884041216539458826"
+        },
+        {
+          "file": "apps/frontend/.next/static/chunks/polyfills.js",
+          "hash": "8152964857117933876"
+        },
+        {
+          "file": "apps/frontend/.next/static/chunks/webpack.js",
+          "hash": "10589499939323036114"
+        },
+        {
+          "file": "apps/frontend/.next/static/development/_buildManifest.js",
+          "hash": "13063724784290855366"
+        },
+        {
+          "file": "apps/frontend/.next/static/development/_ssgManifest.js",
+          "hash": "17018243955171961484"
+        },
+        {
+          "file": "apps/frontend/.next/static/webpack/633457081244afec._.hot-update.json",
+          "hash": "10481436618516908015"
+        },
+        {
+          "file": "apps/frontend/.next/static/webpack/b1fdba1a63f77374.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "apps/frontend/.next/static/webpack/webpack.b1fdba1a63f77374.hot-update.js",
+          "hash": "9720465870733492335"
+        },
+        {
+          "file": "apps/frontend/.next/trace",
+          "hash": "1702872539015348250"
+        },
+        {
+          "file": "apps/frontend/.next/types/app/layout.ts",
+          "hash": "4725002727378596030",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend/.next/types/app/login/page.ts",
+          "hash": "9890689809492434240",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend/.next/types/app/page.ts",
+          "hash": "12959832016519067966",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend/.next/types/cache-life.d.ts",
+          "hash": "12858368115349027927",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend/.next/types/package.json",
+          "hash": "6094546126370684104"
+        },
+        {
+          "file": "apps/frontend/app/dashboard/availability/page.tsx",
+          "hash": "3931163730678979935"
+        },
+        {
+          "file": "apps/frontend/app/dashboard/profile/page.tsx",
+          "hash": "7463074513088553536"
+        },
+        {
+          "file": "apps/frontend/app/layout.tsx",
+          "hash": "2925287863837264382",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/app/login/page.tsx",
+          "hash": "17905989356204048353",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend/app/page.tsx",
+          "hash": "2599091583905886837"
+        },
+        {
+          "file": "apps/frontend/app/patient/details/page.tsx",
+          "hash": "9367686238822349494"
+        },
+        {
+          "file": "apps/frontend/app/patient/login/page.tsx",
+          "hash": "14650403416798130338",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/app/patient/register/page.tsx",
+          "hash": "15714280623252991385",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend/app/register/page.tsx",
+          "hash": "4462436240585461215",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend/components/AvailabilityScheduler.tsx",
+          "hash": "5063949323882714360",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/components/LoginForm.tsx",
+          "hash": "13336633627667759488",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend/components/ProfileForm.tsx",
+          "hash": "6628819061659178100",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/components/RegistrationForm.tsx",
+          "hash": "7277460118094800497",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/next-env.d.ts",
+          "hash": "11589040317585531256"
+        },
+        {
+          "file": "apps/frontend/next.config.js",
+          "hash": "6665160501143952953"
+        },
+        {
+          "file": "apps/frontend/project.json",
+          "hash": "3258513539471030475"
+        },
+        {
+          "file": "apps/frontend/services/api.ts",
+          "hash": "10562125469003029549"
+        },
+        {
+          "file": "apps/frontend/store/index.ts",
+          "hash": "15535821908492258391",
+          "deps": [
+            "npm:@reduxjs/toolkit"
+          ]
+        },
+        {
+          "file": "apps/frontend/store/sclices/authSlice.ts",
+          "hash": "4666439780494839180",
+          "deps": [
+            "npm:@reduxjs/toolkit"
+          ]
+        },
+        {
+          "file": "apps/frontend/store/sclices/availabilitySlice.ts",
+          "hash": "10934632111351399362",
+          "deps": [
+            "npm:@reduxjs/toolkit"
+          ]
+        },
+        {
+          "file": "apps/frontend/store/sclices/profileSlice.ts",
+          "hash": "8005932107268026078",
+          "deps": [
+            "npm:@reduxjs/toolkit"
+          ]
+        },
+        {
+          "file": "apps/frontend/tests/AvailabilityScheduler.test.tsx",
+          "hash": "9405554703152906606",
+          "deps": [
+            "npm:vitest",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/frontend/tests/LoginForm.test.tsx",
+          "hash": "12084080358748349057",
+          "deps": [
+            "npm:vitest",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/frontend/tests/ProfileForm.test.tsx",
+          "hash": "18292500417903276436",
+          "deps": [
+            "npm:vitest",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/frontend/tests/RegistrationForm.test.tsx",
+          "hash": "17247130669003627948",
+          "deps": [
+            "npm:vitest",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/frontend/tsconfig.json",
+          "hash": "10330568910897596772"
+        }
+      ]
+    }
+  }
+}

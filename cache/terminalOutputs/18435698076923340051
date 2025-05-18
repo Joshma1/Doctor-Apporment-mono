@@ -1,0 +1,30 @@
+[1m[33mpublic directory cannot be empty. This may result in errors during the deployment. Consider adding a public/.gitkeep file[39m[22m
+   [1m[38;2;173;127;168m▲ Next.js 15.3.2[39m[22m
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully in 2000ms
+ [37m[1m [22m[39m Linting and checking validity of types ...
+ [37m[1m [22m[39m Collecting page data ...
+ [37m[1m [22m[39m Generating static pages (0/8) ...
+ [37m[1m [22m[39m Generating static pages (2/8) 
+ [37m[1m [22m[39m Generating static pages (4/8) 
+ [37m[1m [22m[39m Generating static pages (6/8) 
+ [32m[1m✓[22m[39m Generating static pages (8/8)
+ [37m[1m [22m[39m Finalizing page optimization ...
+ [37m[1m [22m[39m Collecting build traces ...
+
+[4mRoute (app)[24m                                 [4mSize[24m  [4mFirst Load JS[24m  [4m[24m  [4m[24m
+┌ ○ /                                      140 B         [37m[1m102 kB[22m[39m
+├ ○ /_not-found                            975 B         [37m[1m102 kB[22m[39m
+├ ○ /dashboard/availability                827 B         [37m[1m102 kB[22m[39m
+├ ○ /dashboard/profile                     770 B         [37m[1m102 kB[22m[39m
+├ ○ /login                                 683 B         [37m[1m102 kB[22m[39m
+└ ○ /register                              522 B         [37m[1m102 kB[22m[39m
++ First Load JS shared by all             [37m[1m101 kB[22m[39m
+  ├ chunks/315-55c390ae8a7b602b.js       46.3 kB
+  ├ chunks/87c73c54-91cd75a5d5838f36.js  53.2 kB
+  └ other shared chunks (total)          1.94 kB
+
+
+○  (Static)  prerendered as static content
+
