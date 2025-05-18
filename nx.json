@@ -1,0 +1,10 @@
+{
+  "npmScope": "doctor-appointment-mono",
+  "affected": {
+    "defaultBase": "main"
+  }, 
+  "projects": {
+    "frontend": "apps/frontend"
+    
+  }
+}
